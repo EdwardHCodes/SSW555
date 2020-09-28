@@ -9,11 +9,10 @@ for line in gedcom_file:
   print(f"-->|{line}")
   level = line[:1]
   split_line = line.split()
-  for word in tags:
-    i = 0
-    if word = word[i]
-    i += 1  
-  if word in split_line is in tags:
-    valid = "Y"
-    print(f"<--|" + word + "|" + level + "|" + valid)
-
+  for keyword in tags:
+    if keyword in split_line:
+      valid = "Y"
+      print(f"<--|" + keyword + "|" + level + "|" + valid)
+    else:
+      valid = "N"
+      print(f"<--|" + keyword + "|" + level + "|" + valid)
