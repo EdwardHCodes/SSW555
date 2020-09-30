@@ -13,7 +13,6 @@ def gedcom_file_reader(gedcom_file):
     line_count += 1
     empty_array.append((f"--> {line}"))
     level = line[0]
-    #print(level)
     split_line = line.split()
     for keyword in split_line:
       if keyword in tags:
@@ -35,6 +34,13 @@ def gedcom_file_reader(gedcom_file):
   print(line_count)
 
 gedcom_file_reader(gedcom_file)
+
+def persons_age(age):
+  pass
+
+
+
+
 
 
 
