@@ -20,7 +20,7 @@ class TestGedcomReader(unittest.TestCase):
     def test_length_of_gedcom_file(self):
         self.assertEqual(gedcom_file_reader(gedcom_file_reader), "<--|INDI|1|")
     def test_length_of_gedcom_file(self):
-        self.assertEqual(persons_age(30), 30)
+        self.assertEqual(person_age(30), 30)
     
 if __name__ == "__main__":
     unittest.main()

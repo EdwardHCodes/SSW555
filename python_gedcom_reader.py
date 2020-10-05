@@ -34,11 +34,13 @@ def gedcom_file_reader(gedcom_file):
     print(item)
   print(line_count)
 
+def persons_age(birthdate, currentdate):
+  
+  pass
 
 gedcom_file_reader(gedcom_file)
 
-def persons_age(age):
-  pass
+
 
 
 
